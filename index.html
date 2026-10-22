@@ -1,71 +1,14 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Paused · Valor Research</title><style>/* The site's one stylesheet: cards, tables that scroll sideways on a phone, a readout that follows the pointer and
-   becomes a bottom sheet at phone width. Light and dark follow the reader's setting. This file is published as it
-   stands - nothing in it may name its origin. */
-:root{--bg:#f7f6f2;--surface:#ffffff;--surface2:#f1efe9;--text:#1c2430;--muted:#667080;--border:#e2dfd6;
-  --ink:#1f3a5f;--accent:#1f6fb2;--radius:10px;--shadow:0 1px 2px rgba(20,30,40,.06)}
-@media (prefers-color-scheme:dark){:root{--bg:#11151b;--surface:#181e26;--surface2:#1f2630;--text:#e5e8ed;
-  --muted:#9aa3ae;--border:#2a323d;--ink:#a9c8ee;--accent:#6aa8e8;--shadow:none}}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-a{color:var(--accent)}
-.top{background:var(--surface);border-bottom:1px solid var(--border)}
-.top .in{max-width:1180px;margin:0 auto;padding:12px 16px;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline}
-.brand{font-weight:700;color:var(--ink);letter-spacing:.04em;text-decoration:none;font-size:16px}
-nav{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14px}
-nav a{text-decoration:none;color:var(--muted)}
-nav a.on{color:var(--ink);font-weight:600}
-.asof{margin-left:auto;color:var(--muted);font-size:13px}
-main{max-width:1180px;margin:0 auto;padding:16px}
-h1{font-size:22px;color:var(--ink);margin:6px 0 10px}
-h2{font-size:16px;color:var(--ink);margin:0 0 8px}
-h3{font-size:14px;color:var(--muted);margin:12px 0 6px}
-p{margin:6px 0}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);
-  padding:14px 16px;margin:0 0 14px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media (max-width:1000px){.grid2{grid-template-columns:1fr}}
-.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-table{border-collapse:collapse;width:100%;font-size:13px}
-th,td{padding:5px 8px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
-th{color:var(--muted);font-weight:600}
-td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
-.muted{color:var(--muted)}
-.note{border-left:3px solid var(--accent);background:var(--surface2);padding:7px 11px;border-radius:4px;font-size:13.5px;
-  margin:8px 0}
-.chartbox{position:relative;touch-action:pan-y;user-select:none}
-.chartbox svg{display:block;width:100%;height:auto}
-.chartbox svg text{fill:var(--muted);font-size:11px}
-.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;color:var(--muted);margin:6px 0 0}
-.legend i{display:inline-block;width:18px;height:3px;border-radius:2px;vertical-align:middle;margin-right:5px}
-.readout{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--border);
-  box-shadow:0 4px 14px rgba(0,0,0,.12);border-radius:8px;padding:7px 10px;font-size:12.5px;line-height:1.45;
-  min-width:150px;max-width:300px;display:none;z-index:5}
-.readout b{color:var(--ink)}
-.readout .p{color:var(--muted);font-size:11.5px;margin-top:3px}
-.slider{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 10px;font-size:13.5px}
-.slider input{flex:1;min-width:180px}
-.attribution{font-size:12.5px;color:var(--muted)}
-footer{max-width:1180px;margin:10px auto 0;padding:14px 16px 30px;border-top:1px solid var(--border);color:var(--muted);
-  font-size:12.5px;line-height:1.5}
-footer p{margin:4px 0}
-footer .links{display:flex;flex-wrap:wrap;gap:4px 14px}
-@media (max-width:640px){
-  body{font-size:14.5px}
-  .asof{margin-left:0;width:100%}
-  main{padding:12px}
-  .card{padding:12px}
-  table{font-size:12px}
-  .readout.sheet{position:fixed;left:8px;right:8px;bottom:8px;top:auto !important;max-width:none}
-}
-</style></head><body><div class="top"><div class="in"><a class="brand" href="index.html">Valor Research</a><nav></nav><span class="asof"></span></div></div><main><h1>Valor Research is paused; back soon</h1><div class="card"><p>The pages are offline for now. <a href="#impressum">Impressum</a></p></div><div class="card" id="impressum"><h1>Impressum</h1>
-<h2>Angaben gemäß § 5 DDG</h2>
-<p>Dr. Nabil Alkafri, Postal address available on request by e-mail, Frankfurt am Main, Germany.</p>
-<p>Kontakt: valorresearch@substack.com.</p>
-<p>Umsatzsteuer-Identifikationsnummer: No VAT identification number..</p>
-<p>Verantwortlich für den Inhalt: Dr. Nabil Alkafri, Anschrift wie oben.</p>
-<p>Hinweis: Valor Research erbringt keine Anlageberatung und keine sonstige erlaubnispflichtige Finanzdienstleistung; die Inhalte sind allgemeine Informationen.</p>
-<h2>Provider identification (English)</h2>
-<p>Information under section 5 of the German Digital Services Act: Dr. Nabil Alkafri, Postal address available on request by e-mail, Frankfurt am Main, Germany. Contact: valorresearch@substack.com. VAT identification: No VAT identification number.. Responsible for the content: Dr. Nabil Alkafri, address as above.</p>
-<p>Valor Research does not provide investment advice or any other licensable financial service; its content is general information.</p></div></main><footer><p>Valor Research publishes general information for a broad public. Nothing here is investment advice, a personal recommendation or an offer; nothing takes account of any reader&#x27;s circumstances. The author holds positions in instruments and issuers discussed and trades for his own account. Figures are taken from the public sources named beside them; errors are the author&#x27;s.</p><p class="support">Valor Research is free and carries no advertising; if it is useful to you, you can support it: <a href="https://ko-fi.com/valorresearch">Ko-fi</a> · <a href="https://github.com/sponsors/Valor-Research">GitHub Sponsors</a>.</p><p class="links"><a href="https://github.com/Valor-Research/Valor-Research.github.io/discussions">Feedback (the discussion board)</a><span>valorresearch@substack.com</span><a href="impressum.html">Impressum</a><a href="privacy.html">Privacy</a><a href="method.html">Method</a></p></footer></body></html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Today&#x27;s curves · Valor Research</title><link rel="stylesheet" href="assets/site.css"></head><body><div class="top"><div class="in"><a class="brand" href="index.html">Valor Research</a><nav><a href="index.html" class=on>Today</a><a href="curves.html">History</a><a href="anchors.html">Anchors</a><a href="forecasts.html">Forecasts</a><a href="method.html">Method</a><a href="letters/index.html">Letters</a><a href="about.html">About</a></nav><span class="asof">Data: Bund 21 Oct 2026 · Treasury 16 Oct 2026</span></div></div><main><h1>Today's curves</h1><p class="muted">The German government bond curve as the Bundesbank fits it and the Treasury curve as the Federal Reserve Board fits it: par, zero-coupon and instantaneous forward yields by tenor. Point at a chart for the figures and the fit's parameters.</p><div class="grid2"><div class="card"><h2>Bund <span class="muted">21 Oct 2026</span></h2><div id="chart_bund"></div><div class="scroll"><table><thead><tr><th>Tenor</th><th class="num">Par, %</th><th class="num">Zero, %</th><th class="num">Forward, %</th></tr></thead><tbody><tr><td>2 years</td><td class="num">3.12</td><td class="num">3.08</td><td class="num">3.20</td></tr><tr><td>5 years</td><td class="num">3.24</td><td class="num">3.19</td><td class="num">3.44</td></tr><tr><td>10 years</td><td class="num">3.50</td><td class="num">3.47</td><td class="num">3.96</td></tr><tr><td>30 years</td><td class="num">3.84</td><td class="num">3.86</td><td class="num">4.06</td></tr></tbody></table></div><p class="muted">Zero-coupon and forward yields from the Bundesbank's published Svensson parameters; par yields computed from them (annual coupons).</p></div><div class="card"><h2>U.S. Treasury <span class="muted">16 Oct 2026</span></h2><div id="chart_tsy"></div><div class="scroll"><table><thead><tr><th>Tenor</th><th class="num">Par, %</th><th class="num">Zero, %</th><th class="num">Forward, %</th></tr></thead><tbody><tr><td>2 years</td><td class="num">4.74</td><td class="num">4.69</td><td class="num">4.95</td></tr><tr><td>5 years</td><td class="num">4.90</td><td class="num">4.85</td><td class="num">5.00</td></tr><tr><td>10 years</td><td class="num">5.11</td><td class="num">5.09</td><td class="num">5.69</td></tr><tr><td>30 years</td><td class="num">5.45</td><td class="num">5.46</td><td class="num">4.66</td></tr></tbody></table></div><p class="muted">The Federal Reserve Board's fitted curve (its par yields semi-annual, zero and forward continuously compounded); the dots are the Treasury's own par yields on 21 Oct 2026.</p></div></div><div class="card"><p>The fitted parameters behind every curve, per date: <a href="data/curve_parameters.csv">curve_parameters.csv</a>.</p><p class="attribution">Sources: <a href="https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/term-structure-of-interest-rates">Deutsche Bundesbank</a>; <a href="https://www.federalreserve.gov/data/nominal-yield-curve.htm">Board of Governors of the Federal Reserve System</a>; <a href="https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics">U.S. Department of the Treasury</a>.</p></div></main><footer><p>Valor Research publishes general information for a broad public. Nothing here is investment advice, a personal recommendation or an offer; nothing takes account of any reader&#x27;s circumstances. The author holds positions in instruments and issuers discussed and trades for his own account. Figures are taken from the public sources named beside them; errors are the author&#x27;s.</p><p class="support">Valor Research is free and carries no advertising; if it is useful to you, you can support it: <a href="https://ko-fi.com/valorresearch">Ko-fi</a> · <a href="https://github.com/sponsors/Valor-Research">GitHub Sponsors</a>.</p><p class="links"><a href="https://github.com/Valor-Research/Valor-Research.github.io/discussions">Feedback (the discussion board)</a><span>valorresearch@substack.com</span><a href="impressum.html">Impressum</a><a href="privacy.html">Privacy</a><a href="method.html">Method</a></p></footer><script type="application/json" id="d">{"c":{"par":"#7E1015","zero":"#9A6223","fwd":"#6F6C6D","cmt":"#1C7641"},"k":{"par":"s0","zero":"s2","fwd":"s1","cmt":"s3"},"bund":{"par":[[1.0,2.9825],[2.0,3.1223],[3.0,3.1615],[4.0,3.1924],[5.0,3.2354],[6.0,3.2887],[7.0,3.3461],[8.0,3.4027],[9.0,3.4555],[10.0,3.503],[11.0,3.545],[12.0,3.5819],[13.0,3.614],[14.0,3.642],[15.0,3.6666],[16.0,3.6881],[17.0,3.7071],[18.0,3.724],[19.0,3.739],[20.0,3.7525],[21.0,3.7646],[22.0,3.7756],[23.0,3.7855],[24.0,3.7946],[25.0,3.8028],[26.0,3.8104],[27.0,3.8174],[28.0,3.8238],[29.0,3.8297],[30.0,3.8352]],"zero":[[0.25,2.6135],[0.5,2.7577],[1.0,2.9389],[2.0,3.0767],[3.0,3.1152],[4.0,3.146],[5.0,3.1898],[6.0,3.2449],[7.0,3.3053],[8.0,3.3656],[9.0,3.4224],[10.0,3.4742],[11.0,3.5205],[12.0,3.5615],[13.0,3.5975],[14.0,3.6292],[15.0,3.6571],[16.0,3.6818],[17.0,3.7037],[18.0,3.7233],[19.0,3.7409],[20.0,3.7567],[21.0,3.771],[22.0,3.7841],[23.0,3.796],[24.0,3.8069],[25.0,3.817],[26.0,3.8262],[27.0,3.8348],[28.0,3.8428],[29.0,3.8502],[30.0,3.8572]],"fwd":[[0.25,2.781],[0.5,3.0036],[1.0,3.1946],[2.0,3.2022],[3.0,3.1983],[4.0,3.2924],[5.0,3.442],[6.0,3.5978],[7.0,3.7325],[8.0,3.8371],[9.0,3.9128],[10.0,3.965],[11.0,3.9997],[12.0,4.0221],[13.0,4.0362],[14.0,4.045],[15.0,4.0504],[16.0,4.0536],[17.0,4.0555],[18.0,4.0567],[19.0,4.0573],[20.0,4.0577],[21.0,4.058],[22.0,4.0581],[23.0,4.0582],[24.0,4.0582],[25.0,4.0582],[26.0,4.0582],[27.0,4.0583],[28.0,4.0583],[29.0,4.0583],[30.0,4.0583]],"note":"the Bundesbank's Svensson parameters, 2026-10-21: \u03b20 4.058, \u03b21 -1.640, \u03b22 20.953, \u03b23 -21.653, \u03c41 1.450, \u03c42 1.572","label":"German government bond curve"},"tsy":{"par":[[1.0,4.5382],[2.0,4.741],[3.0,4.8276],[4.0,4.8688],[5.0,4.8982],[6.0,4.9296],[7.0,4.9674],[8.0,5.0114],[9.0,5.0597],[10.0,5.11],[11.0,5.1602],[12.0,5.2086],[13.0,5.254],[14.0,5.2955],[15.0,5.3326],[16.0,5.3652],[17.0,5.3931],[18.0,5.4167],[19.0,5.4359],[20.0,5.4512],[21.0,5.4628],[22.0,5.471],[23.0,5.4762],[24.0,5.4786],[25.0,5.4785],[26.0,5.4762],[27.0,5.472],[28.0,5.466],[29.0,5.4584],[30.0,5.4495]],"zero":[[1.0,4.4896],[2.0,4.6918],[3.0,4.7785],[4.0,4.8199],[5.0,4.8497],[6.0,4.8828],[7.0,4.9241],[8.0,4.9736],[9.0,5.0293],[10.0,5.0888],[11.0,5.1496],[12.0,5.2096],[13.0,5.267],[14.0,5.3205],[15.0,5.3692],[16.0,5.4126],[17.0,5.4502],[18.0,5.4819],[19.0,5.5077],[20.0,5.5276],[21.0,5.5418],[22.0,5.5505],[23.0,5.554],[24.0,5.5526],[25.0,5.5465],[26.0,5.5361],[27.0,5.5216],[28.0,5.5033],[29.0,5.4816],[30.0,5.4566]],"fwd":[[1.0,4.7871],[2.0,4.949],[3.0,4.9469],[4.0,4.9476],[5.0,5.0001],[6.0,5.1042],[7.0,5.2431],[8.0,5.3977],[9.0,5.552],[10.0,5.6944],[11.0,5.8173],[12.0,5.9164],[13.0,5.9901],[14.0,6.0381],[15.0,6.0612],[16.0,6.0612],[17.0,6.0398],[18.0,5.9991],[19.0,5.9412],[20.0,5.8682],[21.0,5.7819],[22.0,5.6842],[23.0,5.5767],[24.0,5.461],[25.0,5.3385],[26.0,5.2104],[27.0,5.0779],[28.0,4.942],[29.0,4.8035],[30.0,4.6635]],"cmt":[[0.08333333333333333,4.09],[0.25,4.25],[0.5,4.35],[1.0,4.52],[2.0,4.81],[3.0,4.89],[5.0,4.95],[7.0,5.03],[10.0,5.13],[20.0,5.47],[30.0,5.42]],"note":"the Federal Reserve Board's Svensson parameters, 2026-10-16: \u03b20 0.000, \u03b21 4.036, \u03b22 4.532, \u03b23 16.448, \u03c41 1.944, \u03c42 15.749","label":"U.S. Treasury curve"}}</script><script src="assets/charts.js"></script><script>
+var D = JSON.parse(document.getElementById('d').textContent);
+function pts(a){return a.map(function(p){return [p[0], p[1]];});}
+function yrs(v){return v < 1 ? Math.round(v*12) + ' months' : (Math.round(v*1e2)/1e2) + ' years';}
+[['bund', D.bund], ['tsy', D.tsy]].forEach(function(c){
+  var s = [{name:'par yield', color:D.c.par, cls:D.k.par, pts:pts(c[1].par)}, {name:'zero-coupon yield', color:D.c.zero, cls:D.k.zero, pts:pts(c[1].zero)},
+           {name:'instantaneous forward', color:D.c.fwd, cls:D.k.fwd, pts:pts(c[1].fwd), dash:'6 3'}];
+  if (c[1].cmt && c[1].cmt.length) { s.push({name:'Treasury par points', color:D.c.cmt, cls:D.k.cmt, pts:pts(c[1].cmt), dots:true, width:0}); }
+  MZ.line(document.getElementById('chart_' + c[0]), {series:s, xLabel:'tenor, years', xTickVals:[0,5,10,15,20,25,30],
+    xFmt:yrs, xTick:function(v){return Math.round(v) + 'y';}, yFmt:function(v){return v.toFixed(2) + ' %';},
+    note:c[1].note, label:c[1].label});
+});
+</script></body></html>
