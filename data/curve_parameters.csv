@@ -7431,6 +7431,7 @@ date,curve,publisher,b0,b1,b2,b3,tau1,tau2
 2026-11-12,bund,Deutsche Bundesbank,3.943620,-1.471990,29.108770,-29.719520,1.509140,1.609630
 2026-11-13,bund,Deutsche Bundesbank,4.033710,-1.569080,29.117390,-29.706820,1.507170,1.608130
 2026-11-16,bund,Deutsche Bundesbank,4.036800,-1.597650,29.402150,-29.869130,1.476670,1.578100
+2026-11-17,bund,Deutsche Bundesbank,4.015250,-1.538050,29.211330,-29.869150,1.483120,1.580960
 1961-06-14,treasury,Board of Governors of the Federal Reserve System,3.917606,-1.277955,-1.949397,0.000000,0.339218,-9.999900e+02
 1961-06-15,treasury,Board of Governors of the Federal Reserve System,3.978498,-1.257404,-2.247617,0.000000,0.325775,-9.999900e+02
 1961-06-16,treasury,Board of Governors of the Federal Reserve System,3.984350,-1.429538,-1.885024,0.000000,0.348817,-9.999900e+02
@@ -24494,3 +24495,8 @@ date,curve,publisher,b0,b1,b2,b3,tau1,tau2
 2026-11-04,treasury,Board of Governors of the Federal Reserve System,0.000000,4.376569,-4.443242e+02,4.558242e+02,18.282337,18.486255
 2026-11-05,treasury,Board of Governors of the Federal Reserve System,0.001693,4.285486,-4.265026e+02,4.380337e+02,15.529716,15.734316
 2026-11-06,treasury,Board of Governors of the Federal Reserve System,6.058759,-1.868787,3.536051e+03,-3.537855e+03,3.068701,3.069813
+2026-11-09,treasury,Board of Governors of the Federal Reserve System,0.009139,4.344602,-3.916328e+02,4.030795e+02,17.643928,17.868249
+2026-11-10,treasury,Board of Governors of the Federal Reserve System,0.000000,4.167783,4.361658,16.318116,1.884272,15.945544
+2026-11-11,treasury,Board of Governors of the Federal Reserve System,,,,,,
+2026-11-12,treasury,Board of Governors of the Federal Reserve System,0.000000,4.138490,4.958243,16.499357,1.807298,15.731184
+2026-11-13,treasury,Board of Governors of the Federal Reserve System,0.000000,4.125725,4.926172,16.624912,1.834455,15.701876
